@@ -18,7 +18,7 @@ setup(
     ],
     install_requires=["setuptools"],
     zip_safe=True,
-    maintainer="sdalal",
+    maintainer="shail",
     maintainer_email="shaildalal2024@u.northwestern.edu",
     description="Navigation package for the nubot diff drive robot for mapping",
     license="MIT",
