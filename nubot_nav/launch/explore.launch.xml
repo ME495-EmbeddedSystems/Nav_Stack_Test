@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find-pkg-share nubot_nav)/launch/manual_explore.launch.xml"></include>
+  <node pkg="nubot_nav" exec="explore" name="explore"/>
+</launch>

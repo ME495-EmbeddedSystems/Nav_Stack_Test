@@ -144,7 +144,7 @@ controller_server:
       debug_trajectory_details: True
       min_vel_x: 0.0
       min_vel_y: 0.0
-      max_vel_x: 0.26
+      max_vel_x: 0.5
       max_vel_y: 0.0
       max_vel_theta: 1.0
       min_speed_xy: 0.0
@@ -186,7 +186,7 @@ local_costmap:
     ros__parameters:
       update_frequency: 5.0
       publish_frequency: 2.0
-      global_frame: odom
+      global_frame: map
       robot_base_frame: base_link
       rolling_window: true
       width: 3

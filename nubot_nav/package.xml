@@ -3,12 +3,14 @@
 <package format="3">
   <name>nubot_nav</name>
   <version>0.0.0</version>
-  <description>Navigation package for the nubot diff drive robot</description>
+  <description>Navigation package for the nubot diff drive robot for mapping</description>
   <maintainer email="shaildalal2024@u.northwestern.edu">shail</maintainer>
   <license>MIT</license>
 
   <exec_depend>ros_launch</exec_depend>
-
+  <exec_depend>nubot<exec_depennd>
+  <exec_depend>rviz2</exec_depend>
+  
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
